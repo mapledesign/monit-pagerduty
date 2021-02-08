@@ -13,7 +13,7 @@ key=<<Your PagerDuty Integration key>>
 monit-pagerduty [--trigger|--resolve] [service]
 ```
 
-Either `--trigger` or `--resolve` is required. Trigger triggers and incident; Resolve resolves it.
+Either `--trigger` or `--resolve` is required. Trigger triggers an incident; Resolve resolves it.
 
 `service` is optional; if not provided, the script will use the Monit variable `MONIT_SERVICE`. To resolve an incident you **must** use the same `service` value as you used to trigger it.
 
